@@ -31,5 +31,7 @@ public:
         // Step 1: Allcate memory for new node
         Node *newNode = new Node();
 
-        // Step 2:
+        // Step 2: Assign value to the data fields
+        newNode->noMhs = nim;
+        //
     }
