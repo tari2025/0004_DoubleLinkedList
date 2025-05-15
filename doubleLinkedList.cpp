@@ -244,9 +244,12 @@ currentNode = currentNode->prev
                     default:
                         cout << "Invalid option\n";
                     }
-                }
+                    cout << "n\nPress Enter to continue...";
+                    cin.ignore();
+                    cin.get();
+                    cout << endl;
+                    system("clear");
+                } while (choice != '6');
             }
         }
     }
-}
-}
