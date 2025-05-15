@@ -25,5 +25,11 @@ public:
     {
         int nim;
         string nm;
-        cout << "\nEnter the roll number of the student"
+        cout << "\nEnter the roll number of the student";
+        cin >> nim;
+
+        // Step 1: Allcate memory for new node
+        Node *newNode = new Node();
+
+        // Step 2:
     }
