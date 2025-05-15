@@ -38,5 +38,11 @@ public:
         if (START == NULL || nim <= START->noMhs)
         {
 
-            if (START != NULL)
+            if (START != NULL && nim == START->noMhs)
+
+                cout << "\nDuplicate number not allowed" << endl;
         }
+        // step 4: newNode.next =  START
+        newNode->next = START;
+    }
+}
